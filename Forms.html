@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+</head>
+<body>
+
+        <form>
+            <link rel="stylesheet" href="stylesheet3.css">
+
+                <h1>Personal details</h1>
+
+                <label for="name"></label>
+                Name: <input type="text" placeholder="enter your name" required id="name" size="30"> <br><br>
+
+                Password: <input type="password"  size="30"><br><br>
+
+                Email-id: <input type="email" size="30" > <br><br>
+
+                Gender: <input type="radio" name="gender" >Male
+                        <input type="radio" name="gender" >Female  <br><br>    
+                        
+
+                Contact#: <input type="text" size="30" id="p5">  
+                
+                <h1>Educational Qualification</h1>
+
+                <label for="degree"></label>
+                Degree: <select name="degree">
+                            <option value="">  ---Select Group---  </option>                 
+                         <option value="B.E.">B.E.</option>
+                            <option value="B.C.A">B.C.A.</option>
+                            <option value="B.Sc.">B.Sc.</option>
+                        </select> <br><br>
+
+                            
+                <label  for="Engineering"></label>
+                Engineering: <select name="Engineering" >
+                    <option value=""> ---Select Group--- </option>
+                    <option value="I.T.">I.T.</option>
+                    <option value="Mechanical">Mechanical</option>
+                    <option value="Civil">Civil</option>
+                    <option value="C.S.E."> C.S.E.</option>
+                </select> <br><br>
+
+                Hobbies: <input type="radio" name="hobbies">Playing Chess
+                          <input type="radio" name="hobbies">Reading Books
+
+            <h1>Address</h1>  
+
+            <textarea name="message"  cols="30" rows="10" placeholder="Enter your Address" required ></textarea> <br><br>
+
+            Attach resume: <input type="file" multiple > <br><br>
+
+            <input type="submit">
+            
+
+        </form>
+</body>
+</html>
